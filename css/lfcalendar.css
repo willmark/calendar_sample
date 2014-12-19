@@ -1,0 +1,11 @@
+.table-caption {display: table-caption;}
+.calendar {background-color:#151515; color:ffffff; display: table; width: 100%;}
+.calendarHeader {display: table-cell; background-color: #018ac1; color: white; text-align: center; width: 100%;}
+.calendarHeaderButton {background-color: #018ac1; color: white;display: table-cell;}
+.calendarHeaderNext {left: 90%;}
+.calendarWeek {display: table-row; width: 100%;}
+.calendarDay {text-align: center; display: table-cell; width: 14%; padding-bottom: 8%;border: solid 1px lightgrey;}
+.calendarDayActive {background-color:#018ac1; color:000000;}
+.calendarDay:hover {background-color:#eeeeee; color:000000;}
+.event {background-color:#018ac1; color:white;}
+.event:hover {background-color:white; color:#018ac1;cursor: pointer;}

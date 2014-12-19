@@ -1,0 +1,17 @@
+<html>
+<head>
+   <link href="css/lfcalendar.css" rel="stylesheet" type="text/css">
+   <script src="js/lfcalendar.js" type="text/javascript"></script>
+</head>
+<body>
+   <div class="lfcalendar"></div>
+   <script>
+       lfcalendar.init({
+           targetClass: 'lfcalendar',
+           events: function () {
+              return {"2014-11-09":{"number":1,"badgeClass":"badge-warning","dayEvents":[{"hour":"12:00","name":"Event for Mark"}]}}
+           }
+       }).render('2014-11-15')
+   </script>
+</body>
+</html>
